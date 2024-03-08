@@ -1,0 +1,30 @@
+@import "/src/styles/mixins.scss";
+
+.top-nav {
+  @include flex(row, start, center, 3.125rem);
+  width: 100%;
+}
+.navbar-container {
+  background-color: #09090d;
+  color: white;
+
+  .arrow-button {
+    background-color: #1e1d25;
+    padding: 10px;
+    border-radius: 5px;
+    margin-right: 8px;
+    justify-content: center;
+    text-align: center;
+  }
+}
+.body-container {
+  border-top: 2px solid #343339;
+  border-bottom: 1px solid #343339;
+  background-color: #12111a;
+  color: white;
+}
+
+.footer-container {
+  background-color: #09090d;
+  color: white;
+}
